@@ -4,8 +4,6 @@ This package integrates [meow]'s input modes with [vterm]. It makes it so that
 in normal mode, all normal bindings apply, and in insert mode, only C-c and ESC
 are bound.
 
-This package integrates meow's input modes with vterm.
-
 `vterm` consumes all inputs other than its exceptions, making it not
 integrate well with meow. This package solves this by using a custom keymap
 in normal mode with standard bindings, and using the default vterm keymap in
